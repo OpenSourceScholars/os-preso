@@ -36,35 +36,33 @@
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
 
-        <section>
-          <h1>Open Source: A Guide</h1>
-          <br />
-          <h3>Adventuring toolkit for would be Open Source heros</h3>
-          <p>
-            Created by Tim Bielawa and Andrew Butcher
-          </p>
-        </section>
+	<section>
+	  <h1>Open Source: A Guide</h1>
+	  <br />
+	  <h3>Adventuring toolkit for would be Open Source heros</h3>
+	  <p>
+	    Created by Tim Bielawa and Andrew Butcher
+	  </p>
+	</section>
 
 
 
 
-        <section>
-          <h2>An Open Source Scholarship</h2>
-          <br />
+	<section>
+	  <h2>An Open Source Scholarship</h2>
+	  <br />
 
-          <p>DETAILS</p>
-
-          <aside class="notes">
-            Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-          </aside>
-        </section>
+	  <aside class="notes">
+	    Here we announce that there _is_ a scholarship and that details about it will be given later :3
+	  </aside>
+	</section>
 
 
 
-        <!-- INTRODUCTIONS -->
-        <section>
+	<!-- INTRODUCTIONS -->
+	<section>
 	  <section>
-            <h2>So who are these guys anyway?</h2>
+	    <h2>So who are these guys anyway?</h2>
 	    <hr />
 	    <p class="fragment roll-in">
 	      Just bros, really
@@ -79,305 +77,436 @@
 	    <img src="images/just_brofaces.jpg" height="60%">
 	  </section>
 
-          <aside class="notes">
-            Personal intros before we talk about open source
-          </aside>
-        </section>
+	  <aside class="notes">
+	    Personal intros before we talk about open source
+	  </aside>
+	</section>
 
 
 
 
-        <!-- WHAT IS OPEN SOURCE? -->
-        <section>
-          <h2>A brief history of</h2>
-          <h2>Open Source</h2>
-        </section>
+	<!-- WHAT IS OPEN SOURCE? -->
+	<section>
+	  <h2>A brief history of</h2>
+	  <h2>Open Source</h2>
+	</section>
 
-        <section>
-          <h2>"Free Software"</h2>
-        </section>
+	<section>
+	  <h2>"Free Software"</h2>
+	</section>
 
-        <section>
-          <img src="images/Stallman2.jpg"></img>
-        </section>
+	<section>
+	  <img src="images/Stallman2.jpg"></img>
+	  <aside class="notes">
+	    Richard Stallman (legend).
+	  </aside>
+	</section>
 
-        <section>
-          <img src="images/TimAndStallman.jpg" height="80%"></img>
-        </section>
+	<section>
+	  <img src="images/TimAndStallman.jpg" height="80%"></img>
+	  <aside class="notes">
+	    Some of you may remember when he was here in February, 2010 giving a talk about Copyright Law.
+	  </aside>
+	</section>
 
-        <section>
-          <img src="images/Xerox9700.jpg"></img>
-        </section>
+	<section>
+	  <img src="images/Parrot.jpg" height="80%"></img>
+	  <aside class="notes">
+	    During which he played a recorder for a parrot.
+	  </aside>
+	</section>
 
-        <section>
-          <img src="images/Stallman3.jpg"></img>
-        </section>
+	<section>
+	  <img src="images/YoungStallman.jpg"></img>
+	  <aside class="notes">
+	    MIT Hacker community late 70's early 80's.
+	    Stallman at this time is working in the AI Lab at MIT with
+	    a bunch of other "hackers". It's important to note that
+	    the community of people working at the lab freely modified
+	    and traded programs with their source code.
+	  </aside>
+	</section>
 
-        <section>
-          <img src="images/GNU.png" height="80%"></img>
-          <a href="http://fsf.org" target="_blank">Free Software Foundation</a>
-        </section>
+	<section>
+	  <img src="images/Xerox9700.jpg"></img>
+	  <aside class="notes">
+	    This giant state of the art monolith was a gift from the
+	    Xerox corporation. This was their first networked printer
+	    which came with a boatload of new problems.
+
+	    Prior to their receiving this gift, they had another
+	    printer which they had a lot of problems with. Stallman
+	    had written some code on their PDP-11 which would let
+	    people know that the printer had become jammed and then
+	    two to three people in the lab would come check it out and
+	    at least one of them would be able to fix it. But they
+	    didn't have the source code for this printer and wanted to
+	    make similar modifications.
+
+	    He then heard of a guy over at Carnegie Mellon who had
+	    recently left a job at Xerox and had the source code that
+	    they so desperately needed. And the man told Stallman that
+	    he had "promised not to give him a copy". Because of an NDA.
+	  </aside>
+	</section>
+
+	<section>
+	  <img src="images/Stallman3.jpg"></img>
+	  <aside class="notes">
+	    This made Stallman extremely angry. So much so that he
+	    would become a Crusader for software freedom, declining to
+	    use software which came with a no sharing policy.
+	  </aside>
+	</section>
+
+	<section>
+	  <img src="images/GNU.png" height="80%"></img>
+	  <a href="http://fsf.org" target="_blank">Free Software Foundation</a>
+	  <aside class="notes">
+	    Stallman founded the Free Software Foundation in 1985
+	    which employed programmers to work on the GNU project
+	    (which I'll talk about shortly).
+
+	    It also enforces the GNU Public License (GPL) which was
+	    created to ensure software freedoms.
+	  </aside>
+	</section>
 
 
-        <section>
-          <h2>freedom 0</h2>
-          <h3>The freedom to run the program,
-            for any purpose.</h3>
-        </section>
+	<section>
+	  <h2>freedom 0</h2>
+	  <h3>The freedom to run the program,
+	    for any purpose.</h3>
+	</section>
 
-        <section>
-          <h2>freedom 1</h2>
-          <h3>The freedom to study how the
-            program works, and change it so it
-            does your computing as you
-            wish. Access to the source code is a
-            precondition for this.</h3>
-        </section>
+	<section>
+	  <h2>freedom 1</h2>
+	  <h3>The freedom to study how the
+	    program works, and change it so it
+	    does your computing as you
+	    wish. Access to the source code is a
+	    precondition for this.</h3>
+	</section>
 
-        <section>
-          <h2>freedom 2</h2>
-          <h3>The freedom to redistribute
-            copies so you can help your
-            neighbor.</h3>
-        </section>
+	<section>
+	  <h2>freedom 2</h2>
+	  <h3>The freedom to redistribute
+	    copies so you can help your
+	    neighbor.</h3>
+	</section>
 
-        <section>
-          <h2>freedom 3</h2>
-          <h3>The freedom to distribute copies
-            of your modified versions to
-            others. By doing this you can give
-            the whole community a chance to
-            benefit from your changes. Access to
-            the source code is a precondition
-            for this.</h3>
-        </section>
+	<section>
+	  <h2>freedom 3</h2>
+	  <h3>The freedom to distribute copies
+	    of your modified versions to
+	    others. By doing this you can give
+	    the whole community a chance to
+	    benefit from your changes. Access to
+	    the source code is a precondition
+	    for this.</h3>
+	</section>
 
-        <section>
-          <h2>The GNU Project</h2>
-          <br />
-          <h3>GCC: GNU C Compiler</h3>
-          <h3>GDB: GNU Debugger</h3>
-          <h3>GMAKE</h3>
-          <h3>&hellip;</h3>
-        </section>
+	<section>
+	  <h2>The GNU Project</h2>
+	  <br />
+	  <h3>GCC: GNU C Compiler</h3>
+	  <h3>GDB: GNU Debugger</h3>
+	  <h3>GMAKE</h3>
+	  <h3>&hellip;</h3>
+	  <aside class="notes">
+	    The GNU Project was Richard Stallman's ambitious project
+	    to create an ecosystem in which free software could live,
+	    making it easy for others to use and help with creating
+	    more free software programs.
+	  </aside>
+	</section>
 
-        <section>
-          <h1>
+	<section>
+	  <h1>
 	    Real Hackers&#0153;<br />
 	    use<br />
 	    real editors&#0153;
 	  </h1>
-        </section>
+	  <aside class="notes">
+	    Using a text-based editor in your shell is the
+	  </aside>
+	</section>
 
-        <section>
-          <h1>EMACS</h1>
-        </section>
+	<section>
+	  <img src="images/Emacs.png"></img>
+	  <aside class="notes">
+	    Emacs (Editor Macros) was an editor Stallman created
+	    (inspired by TECMACS) which he would use to write
+	    software.
+	  </aside>
+	</section>
 
-        <section>
-          <img src="images/Saint.jpg"></img>
-        </section>
+	<section>
+	  <img src="images/Saint.jpg"></img>
+	  <aside class="notes">
+	    Now, VI and EMACS came out around the same time. To this
+	    day, there has always been a holy war between the two
+	    factions or churches. In this picture Stallman is Saint
+	    IGNUicus, the patron saint of the Church of Emacs.
+	  </aside>
+	</section>
 
-        <section>
-          <h2>Linux Hobbyist Era</h2>
-          <img src="images/Linus2.jpg" height="60%"></img>
-        </section>
+	<section>
+	  <h2>Hobbyist Era</h2>
+	  <img src="images/Linus2.jpg" height="60%"></img>
+	  <aside class="notes">
+	    The GNU Project had everything it needed at this point except a kernel.
 
-        <section>
-          <img src="images/LinuxLogo.png"></img>
-        </section>
+	    Linus Torvalds, a Finnish graduate student would use the
+	    tools created by Stallman to make the Kernel and named the
+	    whole package Linux (Linus+Unix).
+	  </aside>
+	</section>
 
-        <section>
-          <img src="images/gnu-linux.png"></img>
-        </section>
+	<section>
+	  <img src="images/LinuxLogo.png"></img>
+	  <aside class="notes">
+	    The penguin was an idea of Linus Torvalds and was created
+	    by Larry Ewing (designer involved with gtk and gimp).
+	  </aside>
+	</section>
 
-        <section>
-          <img src="images/GNULinux.png"></img>
-        </section>
+	<section>
+	  <img src="images/gnu-linux.png"></img>
+	  <aside class="notes">
+	    Stallman was pretty pissed with the naming of Linux
+	    because he wasn't given any attribution. To this day,
+	    Stallman will write GNU/ in front of Linux where he finds
+	    it such as on the sign on Krovich's door.
+	  </aside>
+	</section>
 
-        <section>
-          <h2>Open Source Era</h2>
-          <img src="images/Raymond.jpg" height="70%"></img>
-        </section>
+	<!-- <section> -->
+	<!--   <img src="images/GNULinux.png"></img> -->
+	<!--   <aside class="notes"> -->
+	<!--   </aside> -->
+	<!-- </section> -->
 
-        <section>
-          <img src="images/Cathedral.jpg"></img>
-        </section>
+	<section>
+	  <h2>Open Source Era</h2>
+	  <img src="images/Raymond.jpg" height="70%"></img>
+	  <aside class="notes">
+	    Eric S Raymond, unnofficial spokesman for the Open Source
+	    Movement. Got his start in closed source software
+	    development in the 80's.
+	  </aside>
+	</section>
 
-        <section>
-          <h3>Linus' Law:</h3>
-          <p>
-            <q cite="The Cathedral and the Bazaar">
-              Given enough eyeballs, all bugs are shallow.
-            </q>
-          </p>
-          <small><a href="http://www.catb.org/esr/writings/homesteading/cathedral-bazaar/" target="_blank">The Cathedral and the Bazaar</a></small>
-        </section>
+	<section>
+	  <img src="images/Cathedral.jpg"></img>
+	  <aside class="notes">
+	    Discusses the Cathedral approach to software development
+	    vs. the Bazaar. In the Cathedral the code is handed down
+	    to you from above, hunting for bugs in a closed system is
+	    difficult because only a few developers have access to the
+	    code to begin with.
 
-        <section>
-          <img src="images/Netscape2.png"></img>
-        </section>
+	    In the Bazaar, where everyone is freely trading/working on
+	    code, bugs are found quickly.
 
-        <section>
-          <h2>The Open Source Initiative</h2>
-          <img src="images/OS.png" height="70%"></img>
-        </section>
+	    Defends the right for developers to close source if they
+	    want to but talks about the benefits of open source.
+	  </aside>
+	</section>
 
-        <section>
-          <img src="images/RedHatRaleigh.jpg"></img>
-        </section>
+	<section>
+	  <h3>Linus' Law:</h3>
+	  <p>
+	    <q cite="The Cathedral and the Bazaar">
+	      Given enough eyeballs, all bugs are shallow.
+	    </q>
+	  </p>
+	  <small><a href="http://www.catb.org/esr/writings/homesteading/cathedral-bazaar/" target="_blank">The Cathedral and the Bazaar</a></small>
+	  <aside class="notes">
+	    Using the Bazaar approach to software development, any bug
+	    becomes trivial with enough people looking at it because
+	    it's open to the public's testing and scrutiny. Also goes
+	    on to state that the logic of a closed source system puts
+	    developers into dysfunctional roles that generate bad
+	    results.
+	  </aside>
+	</section>
 
-        <!-- OPEN SOURCE COMMUNITIES -->
-        <section>
-          <h2>Open Source Communities</h2>
-        </section>
+	<section>
+	  <img src="images/Netscape2.png"></img>
+	  <aside class="notes">
+	    Major event in Open Source history - 1998 release of
+	    Mozilla (then Netscape) Communicator 4.5. Eric Hahn
+	    references the Cathedral and the Bazaar with their white
+	    paper that led to the release of the Netscape source code.
+	  </aside>
+	</section>
 
-        <!-- HOW WILL THIS GET ME A JOB -->
-        <section>
-          <h2>How will this get me a job?</h2>
-        </section>
+	<section>
+	  <h2>The Open Source Initiative</h2>
+	  <img src="images/OS.png" height="70%"></img>
+	  <aside class="notes">
+	    Co-founded by Eric S Raymond in 1998 following the open
+	    sourcing of Netscape. Created separately from the FSF to
+	    "dump the moralizing and confrontational attitude that had
+	    been associated with 'free software' in the past and sell
+	    the idea strictly on the same pragmatic, business-case
+	    grounds that had motivated Netscape." Michael Tiemann
 
-        <section>
-          <img src="images/BadAss.jpg"></img>
-        </section>
+	    The focus of OSI is on marketing, which Stallman says
+	    ignored the "ethical imperative" of free software.
+	  </aside>
+	</section>
 
-        <section>
-          <h2>Companies using Open Source</h2>
-        </section>
+	<section>
+	  <img src="images/RedHatRaleigh.jpg"></img>
+	  <aside class="notes">
+	    In 2012 Red Hat becomes the first Open Source company to
+	    make 1 billion dollars, selling something that comes with
+	    the source code.
+	  </aside>
+	</section>
 
-        <section>
-          <section>
-            <img src="images/LinuxDemand1.jpg"></img>
-          </section>
-          <section>
-            <img src="images/LinuxDemand2.jpg"></img>
-          </section>
-        </section>
+	<!-- OPEN SOURCE COMMUNITIES -->
+	<section>
+	  <h2>Open Source Communities</h2>
+	</section>
 
-        <!-- ANATOMY OF AN OPEN SOURCE PROJECT -->
-        <section>
-          <h2>Anatomy of an Open Source Project</h2>
-        </section>
+	<!-- HOW WILL THIS GET ME A JOB -->
+	<section>
+	  <h2>How will this get me a job?</h2>
+	</section>
 
-        <section>
-          <h3>An open source project includes:</h3>
-          <ul>
-            <li class="fragment roll-in">Code</li>
-            <li class="fragment roll-in">Tests</li>
-            <li class="fragment roll-in">Website</li>
-            <li class="fragment roll-in">Documentation</li>
-            <li class="fragment roll-in">Patch submission guidelines (getting involved)</li>
-            <li class="fragment roll-in">Installer / Packaging</li>
-            <li class="fragment roll-in">Hacking setup</li>
-        </section>
+	<section>
+	  <img src="images/BadAss.jpg"></img>
+	</section>
 
-        <section>
-          <h2>Code</h2>
-        </section>
+	<section>
+	  <h2>Companies using Open Source</h2>
+	</section>
 
-        <section>
-          <h2>Tests</h2>
-        </section>
-
-        <section>
+	<section>
 	  <section>
-            <h2>Website</h2>
+	    <img src="images/LinuxDemand1.jpg"></img>
+	  </section>
+	  <section>
+	    <img src="images/LinuxDemand2.jpg"></img>
+	  </section>
+	</section>
+
+	<!-- ANATOMY OF AN OPEN SOURCE PROJECT -->
+	<section>
+	  <h2>Anatomy of an Open Source Project</h2>
+	</section>
+
+	<section>
+	  <h1>Code</h1>
+	</section>
+
+	<section>
+	  <h1>Tests</h1>
+	</section>
+
+	<section>
+	  <section>
+	    <h1>Website</h1>
 	  </section>
 
 	  <section>
-	    <img src="images/rnoc.png">
+	    <img src="images/logo_big.png">
 	  </section>
-        </section>
+	</section>
 
-        <section>
-          <h2>Documentation</h2>
+	<section>
+	  <h1>Documentation</h1>
 
-          <p>
-            <q>
-              Being 'open source' isn't an
-              excuse for not having any/correct
-              documentation. It's not a community
-              task, it's your job.</q></p>&mdash; Tim
-          Bielawa (<a href="http://twitter.com/tbielawa" target="_blank">@tbielawa</a>)
-          <a href="https://twitter.com/tbielawa/status/290932283064606721"
-             target="_blank">January 14, 2013</a>
-          <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	  <p>
+	    <q>
+	      Being 'open source' isn't an
+	      excuse for not having any/correct
+	      documentation. It's not a community
+	      task, it's your job.</q></p>&mdash; Tim
+	  Bielawa (<a href="http://twitter.com/tbielawa" target="_blank">@tbielawa</a>)
+	  <a href="https://twitter.com/tbielawa/status/290932283064606721"
+	     target="_blank">January 14, 2013</a>
+	  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-        </section>
+	</section>
 
-        <section>
-          <h2>Patch submission guidelines</h2>
-          <h2>(getting involved)</h2>
-        </section>
+	<section>
+	  <h1>Patch submission guidelines</h1>
+	  <h1>(getting involved)</h1>
+	</section>
 
-        <section>
-          <h2>Installer / Packaging</h2>
-        </section>
+	<section>
+	  <h1>Installer / Packaging</h1>
+	</section>
 
-        <section>
-          <h2>Hacking setup</h2>
-        </section>
+	<section>
+	  <h1>Hacking setup</h1>
+	</section>
 
-        <section>
-          <h2>How can I get involved?</h2>
-          <h3>Some anecdotes...</h3>
-        </section>
+	<section>
+	  <h1>How can I get involved?</h1>
+	  <h2>Some anecdotes...</h2>
+	</section>
 
-        <section>
-          <h2>jade-mode</h2>
-          <a href="http://github.com/brianc/jade-mode/pull/18" target="_blank">Pull Request</a>
-        </section>
+	<section>
+	  <h1>jade-mode</h1>
+	  <a href="http://github.com/brianc/jade-mode/pull/18" target="_blank">Pull Request</a>
+	</section>
 
-        <section>
-          <h3><a href="https://prtdata-akbutcher.rhcloud.com/">prtdata-akbutcher.rhcloud.com</a></h3>
-          <iframe src="https://prtdata-akbutcher.rhcloud.com/" height="80%" width="100%"></iframe>
-        </section>
+	<section>
+	  <h3><a href="https://prtdata-akbutcher.rhcloud.com/">prtdata-akbutcher.rhcloud.com</a></h3>
+	  <iframe src="https://prtdata-akbutcher.rhcloud.com/" height="80%" width="100%"></iframe>
+	</section>
 
-        <section>
-          <h2>slocate</h2>
-        </section>
+	<section>
+	  <h1>slocate</h1>
+	</section>
 
-        <section>
-          <h2>pbzip2</h2>
-        </section>
+	<section>
+	  <h1>pbzip2</h1>
+	</section>
 
-        <section>
-          <h2>My red hat inverview</h2>
-          <img src="images/HorsingAround.jpg" height="80%"></img>
-        </section>
+	<section>
+	  <h2>My red hat inverview</h2>
+	  <img src="images/HorsingAround.jpg" height="80%"></img>
+	</section>
 
-        <section>
-          <img src="images/Halloween.jpg"></img>
-        </section>
+	<section>
+	  <img src="images/Halloween.jpg"></img>
+	</section>
 
-        <!-- LOW HANGING FRUIT -->
-        <section>
+	<!-- LOW HANGING FRUIT -->
+	<section>
 	  <img src="images/lowhangingfruit.png" height="80%"></img>
-          <!-- <h2>Low Hanging Fruit</h2> -->
-        </section>
+	  <!-- <h2>Low Hanging Fruit</h2> -->
+	</section>
 
-        <!-- CONTRIBUTIONS ARE MORE THAN CODE -->
-        <section>
-          <h2>Contributions are more than code.</h2>
-        </section>
+	<!-- CONTRIBUTIONS ARE MORE THAN CODE -->
+	<section>
+	  <h2>Contributions are more than code.</h2>
+	</section>
 
-        <!-- SUBMITTING A GOOD BUG REPORT -->
-        <section>
-          <h2>How to ask a question</h2>
+	<!-- SUBMITTING A GOOD BUG REPORT -->
+	<section>
+	  <h2>How to ask a question</h2>
 
-          <aside class="notes">
+	  <aside class="notes">
 	    Getting help
-          </aside>
-        </section>
+	  </aside>
+	</section>
 
-        <!-- PRACTICE GRASSHOPPER -->
-        <section>
-          <img src="images/KarateKid.jpg" width="90%" height="90%"></img>
-        </section>
+	<!-- PRACTICE GRASSHOPPER -->
+	<section>
+	  <img src="images/KarateKid.jpg" width="90%" height="90%"></img>
+	</section>
 
-        <section>
-          <h1>FIN(NISH)</h1>
+	<section>
+	  <h1>FIN(NISH)</h1>
 	  <p class="fragment roll-in">Any Questions?</p>
-        </section>
+	</section>
 
       </div>
 
